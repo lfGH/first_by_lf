@@ -29,7 +29,11 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
 
         //所要申请的权限CONTACTS
         String[] perms = {Manifest.permission.GET_ACCOUNTS};
+
         if (EasyPermissions.hasPermissions(this, perms)) {//检查是否获取该权限啊打发打发的
+
+        if (EasyPermissions.hasPermissions(this, perms)) {//检查是否获取该权限啊打发打发的发顺丰阿凡达
+
             /*Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+123));
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);*/
